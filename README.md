@@ -1,9 +1,6 @@
 # index-tff
-Current version: v0.31 (working draft).
 
 A browsable archive of student work for the atelier TFF, Czech and English. Plain HTML, CSS and JavaScript: no build step, no dependencies, nothing to install.
-
-This is a student initiative and an unofficial working draft. It is not an official website of the Faculty of Arts or the University of Ostrava.
 
 ## Structure
 
@@ -20,6 +17,7 @@ This is a student initiative and an unofficial working draft. It is not an offic
 | `js/logo.js` | The cube logo and its small effects |
 | `js/side.js` | Logo size and colour changes while scrolling, language switch over the footer |
 | `js/site.js`, `js/ticker.js` | Language switching, the top strip |
+| `favicon.svg`, `favicon.ico`, `favicon-64.png`, `apple-touch-icon.png` | Browser tab icon: the logo (the SVG switches between dark and white with the browser theme) |
 | `img/NN/` | Images of work number NN, each as a full size and a `-thumb` file (webp) |
 
 ## Changing content

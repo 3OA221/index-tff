@@ -345,7 +345,9 @@ window.TFF_WORKS = [
    },
    "preview": "04/preview.webp",
    "hasVideo": true,
-   "videoEmbed": []
+   "videoEmbed": [
+    "I-fXUp6mBsI"
+   ]
   }
  },
  {
@@ -518,7 +520,12 @@ window.TFF_WORKS = [
    "original": "Zrcadlo je videoesej zabývající se stereotypním vnímáním osob s mentálním postižením a jejich postavením ve společnosti. Prostřednictvím rozhovorů přibližuje jejich každodenní myšlenky, přání a vztah k okolnímu světu. Snaží se narušit zažité představy o mentálním postižení a ukázat, že lidé, kteří bývají často vnímáni především skrze své omezení, mají vlastní osobnost, kreativitu i jedinečný způsob vnímání světa. Zároveň poukazuje na důležitost jejich přijetí a rovnocenného postavení v každodenním životě.",
    "en": "Zrcadlo (Mirror) is a video essay dealing with stereotypical perceptions of people with intellectual disabilities and their position in society. Through interviews, it brings closer their everyday thoughts, wishes and relationship to the world around them. It tries to disrupt established ideas about intellectual disability and to show that people who are often perceived primarily through their limitation have their own personality, creativity and unique way of perceiving the world. At the same time, it points to the importance of their acceptance and equal standing in everyday life."
   },
-  "socials": [],
+  "socials": [
+   {
+    "label": "@litkovaveona",
+    "url": "https://www.instagram.com/litkovaveona/"
+   }
+  ],
   "links": [],
   "media": {
    "images": [],
