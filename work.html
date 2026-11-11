@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="cs" class="is-work" data-title-cs="Projekt | Text Forma Funkce" data-title-en="Project | Text Forma Funkce">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Projekt | Text Forma Funkce</title>
+  <meta name="description" content="Text Forma Funkce: ateliér grafického designu, Fakulta umění, Ostravská univerzita. / Graphic design atelier, Faculty of Fine Arts, University of Ostrava.">
+  <link rel="stylesheet" href="css/fonts.css">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/site.js"></script>
+  <script src="js/works.js"></script>
+  <script src="js/announcements.js"></script>
+</head>
+<body>
+  <a class="skip" href="#main"><span data-l="cs" lang="cs">Přeskočit na obsah</span><span data-l="en" lang="en">Skip to content</span></a>
+  <div class="ticker" id="ticker" role="region" aria-label="Aktuality / Announcements">
+    <div class="tk-view"><div class="tk-track" id="tk-track"></div></div>
+  </div>
+  <div class="layout">
+    <aside class="side">
+      <!-- Logo = the only navigation: a 3D cube. top face text -> about, left face forma -> works, right face funkce -> footer -->
+      <nav class="logo" aria-label="Text Forma Funkce">
+        <div class="cube-wrap"><div class="cube">
+          <a class="face f-top" href="index.html#about"><span>text</span></a>
+          <a class="face f-left" href="index.html#works"><span>forma</span></a>
+          <a class="face f-right" href="#contact"><span>funkce</span></a>
+        </div></div>
+      </nav>
+      <div class="lang" role="group" aria-label="Jazyk / Language">
+        <button type="button" data-set-lang="cs" lang="cs" aria-label="Čeština" aria-pressed="true">CZ</button>
+        <button type="button" data-set-lang="en" lang="en" aria-label="English" aria-pressed="false">EN</button>
+      </div>
+    </aside>
+    <div class="content">
+
+      <main id="main" class="pad">
+        <div class="work-top">
+          <a class="back" href="index.html#works"><span data-l="cs" lang="cs">← Zpět</span><span data-l="en" lang="en">← Back</span></a>
+          <nav class="pager" aria-label="Projects">
+            <a id="w-prev" href="#" hidden></a>
+            <a id="w-next" href="#" hidden></a>
+          </nav>
+        </div>
+
+        <article class="work-page" id="work" hidden>
+          <div class="info">
+            <p class="work-num" id="w-num"></p>
+            <h1 class="work-title" id="w-title"></h1>
+            <p class="work-orig" id="w-orig" hidden></p>
+            <dl class="meta" id="w-meta"></dl>
+            <div class="work-desc" id="w-desc"></div>
+            <ul class="socials" id="w-socials"></ul>
+          </div>
+          <div class="media" id="w-media"></div>
+        </article>
+
+        <p id="w-missing" hidden><span data-l="cs" lang="cs">Projekt nebyl nalezen.</span><span data-l="en" lang="en">Project not found.</span></p>
+        <noscript><p><span data-l="cs" lang="cs">Pro zobrazení projektu je v této verzi potřeba JavaScript.</span><span data-l="en" lang="en">JavaScript is needed to show a project in this version.</span></p></noscript>
+
+      </main>
+
+    </div>
+    <footer class="site-footer on-ink" id="contact">
+        <div class="inner">
+          <div class="footer-grid">
+            <div>
+              <h3 class="stack"><span data-l="cs" lang="cs">Kontakt</span><span data-l="en" lang="en">Contact</span></h3>
+              <p class="stack"><span data-l="cs" lang="cs">Ateliér TFF, místnost 334<br>Fakulta umění, OU<br>Černá louka 3398<br>Moravská Ostrava</span><span data-l="en" lang="en">TFF Atelier, Room 334<br>Faculty of Fine Arts, OU<br>Černá louka 3398<br>Moravská Ostrava</span></p>
+              <ul>
+                <li><a href="mailto:textformafunkce@gmail.com">textformafunkce@gmail.com</a></li>
+                <li><a href="https://www.instagram.com/text_forma_funkce/">Instagram</a></li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="stack"><span data-l="cs" lang="cs">Univerzita</span><span data-l="en" lang="en">University</span></h3>
+              <p class="stack"><span data-l="cs" lang="cs">Grafický design a vizuální komunikace<br>Ostravská univerzita<br>Fakulta umění<br>Katedra grafiky a kresby</span><span data-l="en" lang="en">Graphic Design and Visual Communication<br>University of Ostrava<br>Faculty of Fine Arts<br>Department of Graphics and Drawing</span></p>
+              <ul><li><a href="https://fu.osu.cz/">fu.osu.cz</a></li></ul>
+            </div>
+            <div>
+              <h3 class="stack"><span data-l="cs" lang="cs">Instruktoři</span><span data-l="en" lang="en">Instructors</span></h3>
+              <ul class="people">
+                <li>doc. Justyna Szklarczyk-Lauer</li>
+                <li>MgA. Matěj Doležel</li>
+                <li>MgA. Jakub Adamec, Ph.D.</li>
+              </ul>
+            </div>
+            <div>
+              <h3 class="stack"><span data-l="cs" lang="cs">Dřívější spolupráce</span><span data-l="en" lang="en">Past collaborations</span></h3>
+              <p class="stack"><span data-l="cs" lang="cs">Galerie PLATO, sborník Oáza a kniha kolektivu Tiqqun s galerií Display.</span><span data-l="en" lang="en">PLATO Gallery, the Oáza anthology and a book by the Tiqqun collective with the Display gallery.</span></p>
+            </div>
+          </div>
+          <div class="small">
+            <div>
+              <p class="stack"><span data-l="cs" lang="cs">Neoficiální pracovní verze v0.31, build 261111.0558.0614.c1d</span><span data-l="en" lang="en">Unofficial working draft v0.31, build 261111.0558.0614.c1d</span></p>
+            </div>
+            <p class="stack right"><span data-l="cs" lang="cs">Studentská iniciativa</span><span data-l="en" lang="en">Student initiative</span></p>
+          </div>
+        </div>
+    </footer>
+  </div>
+  <dialog id="lb" aria-label="Galerie / Gallery">
+    <div class="lb-in">
+      <button type="button" class="lb-btn lb-x" id="lb-x" aria-label="Zavřít / Close"><svg viewBox="0 0 16 16" aria-hidden="true" focusable="false"><path d="M3 3l10 10M13 3L3 13"/></svg></button>
+      <ol class="lb-dots" id="lb-dots" aria-label="Obrázky / Images"></ol>
+      <button type="button" class="lb-btn lb-p" id="lb-p" aria-label="Předchozí / Previous">←</button>
+      <button type="button" class="lb-btn lb-n" id="lb-n" aria-label="Další / Next">→</button>
+      <img id="lb-img" alt="">
+      <span class="sr-only" id="lb-count" role="status" aria-live="polite"></span>
+    </div>
+  </dialog>
+  <script src="js/side.js"></script>
+  <script src="js/logo.js"></script>
+  <script src="js/ticker.js"></script>
+  <script src="js/work.js"></script>
+</body>
+</html>
