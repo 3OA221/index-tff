@@ -21,6 +21,13 @@
     var dt = el('dt'); pair(dt, cs, en);
     var dd = el('dd'); dd.appendChild(node); dl.appendChild(dt); dl.appendChild(dd);
   }
+  /* play button in the style of the YouTube one, in the dark grey of the theme; it only makes the preview look like a video (does nothing) */
+  function playIcon() {
+    var s = el('span', 'play'); s.setAttribute('aria-hidden', 'true');
+    s.innerHTML = '<svg viewBox="0 0 68 48" focusable="false"><rect width="68" height="48" rx="18" fill="currentColor"/><path d="M27 14v20l18-10z" fill="#fff"/></svg>';
+    return s;
+  }
+  window.TFF_playIcon = playIcon;
   function paras(parent, text) {
     text.split('\n\n').forEach(function (block) {
       var p = el('p'), lines = block.split('\n');
@@ -50,6 +57,7 @@
     cur = (i + shots.length) % shots.length;
     var s = shots[cur];
     lbImg.src = IMG + s.src; lbImg.alt = s.alt[root.lang] || '';
+    $('lb-open').href = lbImg.src;
     $('lb-count').textContent = (cur + 1) + ' / ' + shots.length;
     /* position marker: a story-style bar, one segment per image, filled up to the current one; click a segment to jump */
     if (lbDots.children.length !== shots.length || lbDots.getAttribute('data-lang') !== root.lang) {
@@ -97,6 +105,7 @@
       var vb = el('figure', 'videobox');
       var poster = el('img'); poster.src = IMG + m.cover.src; poster.width = m.cover.w; poster.height = m.cover.h;
       poster.alt = ''; vb.appendChild(poster);
+      vb.appendChild(playIcon());   /* looks like a video; does nothing yet */
       return vb;
     }
     if (m.hasVideo && !m.images.length) { var v0 = videoBlock(); if (v0) box.appendChild(v0); }
@@ -185,8 +194,10 @@
     var p = $('w-prev'), n = $('w-next'); clear(p); clear(n); p.hidden = n.hidden = true;
     if (works[idx - 1]) { p.href = href(works[idx - 1].id); pair(p, '← Předchozí', '← Previous'); p.hidden = false; }
     if (works[idx + 1]) { n.href = href(works[idx + 1].id); pair(n, 'Další →', 'Next →'); n.hidden = false; }
-    root.setAttribute('data-title-cs', w.title.cs + ' | Text Forma Funkce');
-    root.setAttribute('data-title-en', w.title.en + ' | Text Forma Funkce');
+    /* browser tab: "Name - Title" (the creator's own title, never translated) */
+    var tabTitle = w.authors.join(', ') + ' - ' + w.title.cs;
+    root.setAttribute('data-title-cs', tabTitle);
+    root.setAttribute('data-title-en', tabTitle);
     document.title = root.getAttribute('data-title-' + root.lang);
     $('work').hidden = false;
     return true;

@@ -311,6 +311,9 @@ html.is-work.at-foot { --surface: #DCDCDC; --sq-1: #CBCBCB; --p: 0; }   /* foote
 .shot button { display: block; width: 100%; padding: 0; border: 0; background: var(--sq-1); cursor: zoom-in; line-height: 0; }
 .shot img { width: 100%; height: auto; }
 .videobox { position: relative; aspect-ratio: 16 / 9; background: var(--sq-1); color: var(--surface); overflow: hidden; }
+.play { position: absolute; left: 50%; top: 50%; z-index: 1; width: 4.25rem; height: 3rem; margin: -1.5rem 0 0 -2.125rem; display: block; color: var(--ink); }
+.play svg { display: block; width: 100%; height: 100%; }
+.videobox .play { cursor: pointer; }
 .videobox img { position: absolute; inset: 0; width: 100%; height: 100%; object-fit: cover; }
 .videobox iframe { position: absolute; inset: 0; width: 100%; height: 100%; border: 0; }
 .videos { grid-column: 1 / -1; display: grid; gap: clamp(4px, .6vw, 8px); }
@@ -327,7 +330,9 @@ html.is-work.at-foot { --surface: #DCDCDC; --sq-1: #CBCBCB; --p: 0; }   /* foote
 .lb-btn { position: absolute; z-index: 2; display: grid; place-items: center; min-width: 3.5rem; height: 3.5rem; padding: 0 .75rem; font: 400 1.75rem/1 var(--f-ui); color: var(--surface); background: transparent; border: 0; opacity: .7; cursor: pointer; }
 .lb-btn svg { width: 22px; height: 22px; fill: none; stroke: currentColor; stroke-width: 1; }
 .lb-btn:hover, .lb-btn:focus-visible { opacity: 1; outline-color: var(--surface); }
-.lb-x { top: calc(var(--m) - .5rem); right: calc(var(--m) - .5rem); padding: 0; width: 3.5rem; }
+.lb-x, .lb-open { top: calc(var(--m) - .5rem); padding: 0; width: 3.5rem; text-decoration: none; }
+.lb-x { left: calc(var(--m) - .5rem); }
+.lb-open { right: calc(var(--m) - .5rem); }
 .lb-p { left: calc(var(--m) - .5rem); top: 50%; transform: translateY(-50%); }
 .lb-n { right: calc(var(--m) - .5rem); top: 50%; transform: translateY(-50%); }
 /* position marker: a story-style bar, one segment per image, filled up to the current one */
