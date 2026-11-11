@@ -1,9 +1,7 @@
 # index-tff
-Current version: v0.31 (working draft).
-
 A browsable archive of student work for the atelier TFF, Czech and English. Plain HTML, CSS and JavaScript: no build step, no dependencies, nothing to install.
 
-This is a student initiative and an unofficial working draft. It is not an official website of the Faculty of Arts or the University of Ostrava.
+This is a student initiative and an unofficial working draft. It is not an official website of FU.
 
 ## Structure
 
