@@ -1,0 +1,107 @@
+/* Base styles. Values from the spec, section 7. */
+
+:root {
+  --ink: #202020;
+  --surface: #dcdcdc;
+  --muted: #5a5a5a;
+  --muted-on-ink: #b4b4b4;
+  --placeholder: #cbcbcb;
+  --strip: #0a0a0a;
+
+  --font-sans: Inter, system-ui, -apple-system, 'Segoe UI', Roboto, sans-serif;
+  --font-text: Newsreader, Georgia, 'Times New Roman', serif;
+  --font-forma: 'Space Grotesk', Inter, system-ui, sans-serif;
+  --font-funkce: 'IBM Plex Mono', ui-monospace, 'SFMono-Regular', Menlo, monospace;
+
+  --margin: clamp(20px, 3vw, 48px);
+  --section-gap: clamp(64px, 8vw, 128px);
+  --side-width: clamp(250px, 25vw, 430px);
+  --side-gap: clamp(24px, 4vw, 72px);
+  --strip-height: 34px;
+
+  color-scheme: light;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
+}
+
+body {
+  margin: 0;
+  min-height: 100vh;
+  background: var(--surface);
+  color: var(--ink);
+  font-family: var(--font-sans);
+  font-weight: 400;
+  line-height: 1.5;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+}
+
+:focus-visible {
+  outline: 2px solid currentColor;
+  outline-offset: 3px;
+}
+
+/* Skip link: hidden until focused. */
+.skip-link {
+  position: absolute;
+  left: var(--margin);
+  top: 0;
+  z-index: 100;
+  padding: 0.6rem 0.9rem;
+  background: var(--ink);
+  color: var(--surface);
+  font-size: 0.875rem;
+  font-weight: 700;
+  text-decoration: none;
+  transform: translateY(-120%);
+}
+.skip-link:focus,
+.skip-link:focus-visible {
+  transform: translateY(calc(var(--strip-height) + 8px));
+  outline-color: var(--surface);
+}
+
+.visually-hidden {
+  position: absolute !important;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0 0 0 0);
+  clip-path: inset(50%);
+  white-space: nowrap;
+  border: 0;
+}
+
+/* Page frame: side column + main column on wide screens. */
+.frame {
+  padding: calc(var(--strip-height) + var(--margin)) var(--margin) var(--margin);
+}
+@media (min-width: 900px) {
+  .frame {
+    display: grid;
+    grid-template-columns: var(--side-width) minmax(0, 1fr);
+    column-gap: var(--side-gap);
+  }
+}
+.frame__main:focus {
+  outline: none;
+}

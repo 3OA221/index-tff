@@ -1,0 +1,20 @@
+name: CI
+
+on:
+  push:
+    branches: [astro-rebuild, claude/repository-code-replacement-tbiwab]
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout your repository using git
+        uses: actions/checkout@v7
+      - name: Install, check and build the site
+        uses: withastro/action@v6
+        with:
+          build-cmd: npm run check && npm run build

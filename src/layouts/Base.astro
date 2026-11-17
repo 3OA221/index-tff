@@ -1,0 +1,54 @@
+---
+import '@fontsource/inter/latin-400.css';
+import '@fontsource/inter/latin-ext-400.css';
+import '@fontsource/inter/latin-700.css';
+import '@fontsource/inter/latin-ext-700.css';
+import '@fontsource/newsreader/latin-400.css';
+import '@fontsource/newsreader/latin-ext-400.css';
+import '@fontsource/newsreader/latin-700-italic.css';
+import '@fontsource/newsreader/latin-ext-700-italic.css';
+import '@fontsource/space-grotesk/latin-700.css';
+import '@fontsource/space-grotesk/latin-ext-700.css';
+import '@fontsource/ibm-plex-mono/latin-700.css';
+import '@fontsource/ibm-plex-mono/latin-ext-700.css';
+import '../styles/global.css';
+
+import { SITE_DESCRIPTION, SITE_TITLE } from '../config/site';
+import { ui, type Lang } from '../i18n/ui';
+import { withBase } from '../lib/paths';
+
+interface Props {
+  lang: Lang;
+  /** Tab title. Defaults to the site title. */
+  title?: string;
+}
+
+const { lang, title = SITE_TITLE } = Astro.props;
+const t = ui[lang];
+---
+
+<!doctype html>
+<html lang={lang}>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>{title}</title>
+    <meta name="description" content={SITE_DESCRIPTION} />
+    <link rel="icon" href={withBase('favicon.ico')} sizes="32x32" />
+    <link rel="icon" href={withBase('favicon.svg')} type="image/svg+xml" />
+    <link rel="icon" href={withBase('favicon-64.png')} type="image/png" sizes="64x64" />
+    <link rel="apple-touch-icon" href={withBase('apple-touch-icon.png')} />
+    <slot name="head" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">{t.skip}</a>
+    <div class="frame">
+      <aside class="frame__side">
+        <slot name="side" />
+      </aside>
+      <main id="main" class="frame__main" tabindex="-1">
+        <slot />
+      </main>
+    </div>
+  </body>
+</html>
