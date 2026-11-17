@@ -1,0 +1,89 @@
+{
+  "id": "01",
+  "title": {
+    "cs": "Learned Helplessness",
+    "en": "Learned Helplessness"
+  },
+  "authors": [
+    "Anastasiya Khramava"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 1,
+  "mediums": [
+    "interactive",
+    "motion",
+    "web"
+  ],
+  "format": {
+    "cs": "Interaktivní digitální projekt / animovaná prezentace",
+    "en": "Interactive digital project / animated presentation"
+  },
+  "duration": null,
+  "description": {
+    "lang": "cs",
+    "original": "Co se stane, když naše snaha opakovaně nevede k výsledku? Projekt Learned Helplessness zkoumá téma naučené bezmocnosti prostřednictvím jednoduchých herních situací. Známé principy přiřazování tvarů, sudoku nebo péče o virtuální postavu se stávají prostředkem k prozkoumání pocitu kontroly, opakovaného neúspěchu a ztráty motivace. Černobílý vizuální jazyk, organické postavy a pohyb přibližují tento psychologický koncept skrze vlastní zkušenost s interakcí.",
+    "en": "What happens when our effort repeatedly leads nowhere? The Learned Helplessness project explores the theme of learned helplessness through simple game situations. Familiar principles such as matching shapes, sudoku or caring for a virtual character become a means of exploring the feeling of control, repeated failure and loss of motivation. A black-and-white visual language, organic characters and movement bring this psychological concept closer through one's own experience of interaction."
+  },
+  "socials": [
+    {
+      "label": "@exotic_kaktus",
+      "url": "https://www.instagram.com/exotic_kaktus/"
+    }
+  ],
+  "links": [
+    {
+      "label": {
+        "cs": "Projekt online",
+        "en": "Project online"
+      },
+      "url": "https://precious-pony-9072e0.netlify.app/"
+    }
+  ],
+  "media": {
+    "images": [
+      {
+        "src": "01/obrazek-1.webp",
+        "thumb": "01/obrazek-1-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Obrazovka telefonu s úvodní stránkou projektu Learned Helplessness a černou kaňkovitou postavou na šedém pozadí s černými organickými tvary.",
+          "en": "Smartphone screen showing the title screen of Learned Helplessness with a black ink-blot character, on grey with black organic shapes."
+        }
+      },
+      {
+        "src": "01/obrazek-3.webp",
+        "thumb": "01/obrazek-3-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Dvě obrazovky telefonu z projektu, jedna s hrou o péči o postavu a druhá s černou organickou postavou, obklopené černými kaňkovitými tvary.",
+          "en": "Two phone screens from the project, one with a character-care game and one with a black organic character, surrounded by black blot shapes."
+        }
+      },
+      {
+        "src": "01/obrazek-4.webp",
+        "thumb": "01/obrazek-4-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Tři obrazovky telefonu s minihrami projektu, mimo jiné s přiřazováním tvarů a sudoku, a s otázkou „Do you want to try again?“.",
+          "en": "Three phone screens showing the project's mini-games, including Match the Shapes and Sudoku, and the prompt 'Do you want to try again?'."
+        }
+      }
+    ],
+    "cover": {
+      "src": "01/obrazek-3.webp",
+      "thumb": "01/obrazek-3-thumb.webp",
+      "w": 1600,
+      "h": 2000
+    },
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

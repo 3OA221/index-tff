@@ -1,0 +1,55 @@
+{
+  "id": "15",
+  "title": {
+    "cs": "CYPHER zine vol. 1: Jamaican activism??",
+    "en": "CYPHER zine vol. 1: Jamaican activism??"
+  },
+  "authors": [
+    "Patricie Nekudová"
+  ],
+  "collaborators": [
+    {
+      "name": "Klára Kajzerová",
+      "role": {
+        "cs": "autorka CYPHER zine vol. 2",
+        "en": "author of CYPHER zine vol. 2"
+      }
+    }
+  ],
+  "credits": [],
+  "year": 2025,
+  "study": 3,
+  "mediums": [
+    "zine",
+    "motion"
+  ],
+  "format": {
+    "cs": "Zin a video",
+    "en": "Zine and video"
+  },
+  "duration": null,
+  "description": {
+    "lang": "cs",
+    "original": "> CYPHER is a ZINE observing activistic tendencies and problematic social attitudes in various subcultures <\n\nPrvní díl zinu CYPHER se zaměřuje na sociální problematiku Jamajky, kterou nahlíží prostřednictvím místní dancehallové subkultury. Vznikl na popud dlouhodobého zájmu o jamajskou hudbu a tanec a potřeby proniknout hlouběji do kulturního kontextu. Autorka v textech vyplývá nejen z rozhovorů s českými dancehallovými tanečnicemi, které na Jamajku zavítaly, ale i přímo s obyvateli ostrova. Co se skrývá za zdánlivě bezstarostnou energií jamajské hudby a tanečních pohybů? Jaká společenská témata se v nich odrážejí? A jakou podobu na Jamajce získává aktivismus?",
+    "en": "\"CYPHER is a ZINE observing activistic tendencies and problematic social attitudes in various subcultures\"\n\nThe first issue of the CYPHER zine focuses on the social issues of Jamaica, viewed through the local dancehall subculture. It arose from a long-standing interest in Jamaican music and dance and from the need to go deeper into the cultural context. The author draws in the texts not only on interviews with Czech dancehall dancers who have travelled to Jamaica but also directly on inhabitants of the island. What hides behind the seemingly carefree energy of Jamaican music and dance movements? What social themes are reflected in them? And what form does activism take in Jamaica?"
+  },
+  "socials": [
+    {
+      "label": "@nechpatspat",
+      "url": "https://www.instagram.com/nechpatspat/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [],
+    "cover": {
+      "src": "15/cover.webp",
+      "thumb": "15/cover-thumb.webp",
+      "w": 1920,
+      "h": 1080
+    },
+    "preview": "15/preview.webp",
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

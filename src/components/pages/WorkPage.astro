@@ -1,0 +1,54 @@
+---
+// Stage 2 placeholder: the full work page, media and lightbox come in Stage 4.
+import Base from '../../layouts/Base.astro';
+import { ui, type Lang } from '../../i18n/ui';
+import { localePath, workPath } from '../../lib/paths';
+import { getProjects, neighbours, workTitle, type Project } from '../../lib/projects';
+
+interface Props {
+  lang: Lang;
+  project: Project;
+}
+const { lang, project } = Astro.props;
+const t = ui[lang];
+const { prev, next } = neighbours(await getProjects(), project.id);
+---
+
+<Base lang={lang} title={workTitle(project)} path={workPath(project.id)}>
+  <nav class="work-nav" aria-label={t.projects}>
+    <a href={localePath(lang, '/#works')}>{t.back}</a>
+    <span class="work-nav__pager">
+      {
+        prev && (
+          <a href={localePath(lang, workPath(prev.id))} rel="prev">
+            {t.previous}
+          </a>
+        )
+      }
+      {
+        next && (
+          <a href={localePath(lang, workPath(next.id))} rel="next">
+            {t.next}
+          </a>
+        )
+      }
+    </span>
+  </nav>
+  <article>
+    <p>{project.id}</p>
+    <h1>{project.title[lang]}</h1>
+    <p>{project.authors.join(', ')} · {project.year}</p>
+  </article>
+</Base>
+
+<style>
+  .work-nav {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+  }
+  .work-nav__pager {
+    display: flex;
+    gap: 1rem;
+  }
+</style>

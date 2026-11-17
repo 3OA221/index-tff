@@ -1,0 +1,47 @@
+{
+  "id": "14",
+  "title": {
+    "cs": "Noise signal / Kasakada",
+    "en": "Noise signal / Kasakada"
+  },
+  "authors": [
+    "Oliver Bajtoš"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 1,
+  "mediums": [
+    "motion",
+    "glitch"
+  ],
+  "format": {
+    "cs": "Glitch art",
+    "en": "Glitch art"
+  },
+  "duration": null,
+  "description": {
+    "lang": "sk",
+    "original": "V týchto dvoch prácach zachytávam spätné väzby signálu, ktoré premieňam a nimi následne zobrazujem rozklad dát v digitálnej noosfére. Signál sa postupne degraduje a odhaľuje svoju podstatu, svoj potenciál. Jedná sa o analogovu tvorbu videa, ktorá pracuje s zámerne vytvorenými chybami.",
+    "en": "In these two works I capture the feedback loops of a signal, which I transform and use to depict the decomposition of data in the digital noosphere. The signal gradually degrades and reveals its essence, its potential. It is analogue video work that operates with deliberately created errors."
+  },
+  "socials": [
+    {
+      "label": "@73.yera",
+      "url": "https://www.instagram.com/73.yera/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [],
+    "cover": {
+      "src": "14/cover.webp",
+      "thumb": "14/cover-thumb.webp",
+      "w": 1092,
+      "h": 614
+    },
+    "preview": "14/preview.webp",
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

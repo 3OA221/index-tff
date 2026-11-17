@@ -1,0 +1,51 @@
+{
+  "id": "05",
+  "title": {
+    "cs": "So what do you do when you're waiting at the doctor's waiting room?",
+    "en": "So what do you do when you're waiting at the doctor's waiting room?"
+  },
+  "authors": [
+    "Jakub Kučera"
+  ],
+  "collaborators": [],
+  "credits": [
+    {
+      "name": "Eliška Bílá",
+      "role": null
+    }
+  ],
+  "year": 2025,
+  "study": 2,
+  "mediums": [
+    "video-essay"
+  ],
+  "format": {
+    "cs": "Videoesej",
+    "en": "Video essay"
+  },
+  "duration": "3:36 min",
+  "description": {
+    "lang": "cs",
+    "original": "Klauzurní práce ve spolupráci s mojí přítelkyní Eliškou Bílou. Snažíme se absurditou výroku „A co děláš, když čekáš v čekárně u doktora?“ vyzdvihnout vliv spciálních sítí na naši pozornost a mezilidské vztahy.",
+    "en": "A klauzura (semester review) work made in collaboration with my girlfriend Eliška Bílá. Through the absurdity of the question \"And what do you do when you're waiting in the doctor's waiting room?\", we try to highlight the influence of social media on our attention and interpersonal relationships."
+  },
+  "socials": [
+    {
+      "label": "@925.system",
+      "url": "https://www.instagram.com/925.system/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [],
+    "cover": {
+      "src": "05/cover.webp",
+      "thumb": "05/cover-thumb.webp",
+      "w": 1920,
+      "h": 1080
+    },
+    "preview": "05/preview.webp",
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

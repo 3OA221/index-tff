@@ -1,0 +1,80 @@
+{
+  "id": "18",
+  "title": {
+    "cs": "re:member",
+    "en": "re:member"
+  },
+  "authors": [
+    "Sasha Tymkovych"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 1,
+  "mediums": [
+    "poster",
+    "graphics"
+  ],
+  "format": {
+    "cs": "Grafika, tisk (série plakátů)",
+    "en": "Graphics, print (poster series)"
+  },
+  "duration": null,
+  "description": {
+    "lang": "cs",
+    "original": "Série plakátů RE:MEMBER se zabývá tématem vzpomínek, dětství a plynutí času. Použila jsem vlastní fotografie z dětství, které fotila maminka, aby zachytila okamžiky mého vyrůstání. Dnes pro mě představují vzpomínky na období, které už je za mnou. Při tvorbě jsem pracovala s prostorem a tvary. Fotografie jsem různě upravovala a překrývala, abych zobrazila, jak se naše vzpomínky postupem času mění a jak se z nich některé detaily vytrácejí.\n\n„Všichni dospělí byli kdysi dětmi, ale jen málokdo si na to pamatuje.“\n— Antoine de Saint-Exupéry, Malý princ",
+    "en": "The poster series RE:MEMBER deals with the theme of memories, childhood and the passage of time. I used my own childhood photographs, taken by my mother to capture moments of my growing up. Today they represent memories of a period that is already behind me. In making it I worked with space and shapes. I edited and overlaid the photographs in different ways to show how our memories change over time and how some details fade from them.\n\n\"All grown-ups were once children, but few of them remember it.\"\n— Antoine de Saint-Exupéry, The Little Prince"
+  },
+  "socials": [
+    {
+      "label": "@sstmkv",
+      "url": "https://www.instagram.com/sstmkv/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [
+      {
+        "src": "18/carousel-01.webp",
+        "thumb": "18/carousel-01-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Černý plakát s dětskou fotografií, menší bílý plakát s rozptýlenými body a nápisem re:member.",
+          "en": "Black poster with a childhood photograph, a smaller white poster with scattered dots, and the text re:member."
+        }
+      },
+      {
+        "src": "18/carousel-03.webp",
+        "thumb": "18/carousel-03-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Plakát s černobílou fotografií překrytou vzorem háčkované dečky na bílém pozadí.",
+          "en": "Poster with a black-and-white photograph overlaid with a lace doily pattern, on white."
+        }
+      },
+      {
+        "src": "18/carousel-04.webp",
+        "thumb": "18/carousel-04-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Šedotónová kompozice se vzorem háčkované dečky přes fotografii na bílém pozadí s pasovými značkami.",
+          "en": "Greyscale composition of a lace doily pattern over a photograph, on white with registration marks."
+        }
+      }
+    ],
+    "cover": {
+      "src": "18/carousel-01.webp",
+      "thumb": "18/carousel-01-thumb.webp",
+      "w": 1600,
+      "h": 2000
+    },
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

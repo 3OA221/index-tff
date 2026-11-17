@@ -1,0 +1,103 @@
+{
+  "id": "17",
+  "title": {
+    "cs": "(SAMOTA)",
+    "en": "(SAMOTA)"
+  },
+  "authors": [
+    "Sandra Jagschová"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 1,
+  "mediums": [
+    "zine",
+    "photography",
+    "graphics"
+  ],
+  "format": {
+    "cs": "Zin 148 × 210; autorská fotografie / poezie / grafický design / tisk / šitá vazba / sken",
+    "en": "Zine 148 × 210; original photography / poetry / graphic design / print / stitched binding / scan"
+  },
+  "duration": null,
+  "description": {
+    "lang": "cs",
+    "original": "Samota je autorský zin vytvořený z fotografií pořízených během talentových zkoušek na Ostravskou univerzitu. V období, kdy snímky vznikaly, mě doprovázel pocit osamocení. Opustila jsem rodné město, rodinu i všechno známé a ocitla se sama v cizím bytě s novým začátkem. Fotografie mi zpětně připomínají, jak jsem tento trýznivý pocit dokázala za poslední měsíce překonat, i přes trvalé odpoutání od toho, co mi bylo blízké. Zin tak funguje jako kapesní galerie i objekt nostalgie a osvobození.\n\nSnímky doplňuje grafika spolu s mými autorskými texty a poezií. Celý zin byl vytištěn na domácí tiskárně, sešit do vazby V1 a znovu naskenován do digitální podoby.",
+    "en": "Samota (Solitude) is an original zine made from photographs taken during the talent exams for the University of Ostrava. During the period when the images were made, I was accompanied by a feeling of loneliness. I left my home town, my family and everything familiar and found myself alone in a strange flat with a new beginning. In retrospect, the photographs remind me how I managed to overcome this agonising feeling over recent months, despite the permanent detachment from what was close to me. The zine thus works as a pocket gallery and an object of nostalgia and liberation.\n\nThe images are complemented by graphics together with my own texts and poetry. The whole zine was printed on a home printer, stitched into a V1 binding and scanned again into digital form."
+  },
+  "socials": [
+    {
+      "label": "@sayd.eey",
+      "url": "https://www.instagram.com/sayd.eey/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [
+      {
+        "src": "17/carousel-samota-01.webp",
+        "thumb": "17/carousel-samota-01-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Zin (SAMOTA) s bílou obálkou na tmavém pozadí s vinětací a ozdobným rámečkem.",
+          "en": "The zine (SAMOTA) with a white cover on a dark vignetted background with an ornamental border."
+        }
+      },
+      {
+        "src": "17/carousel-samota-02.webp",
+        "thumb": "17/carousel-samota-02-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Stránka zinu s krátkou básní a malou tmavou fotografií, vyfocená šikmo.",
+          "en": "A zine page with a short poem and a small dark photograph, shot at an angle."
+        }
+      },
+      {
+        "src": "17/carousel-samota-03.webp",
+        "thumb": "17/carousel-samota-03-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Dvě překrývající se stránky zinu s písmenem A, černobílými fotografiemi a slovem (KDE.)",
+          "en": "Two overlapping zine pages with a letter A, black-and-white photographs and the word (KDE.)"
+        }
+      },
+      {
+        "src": "17/carousel-samota-04.webp",
+        "thumb": "17/carousel-samota-04-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Dvoustrana zinu s písmeny SAMOTA zapsanými svisle nad černobílou fotografií tmavé vody.",
+          "en": "Zine spread with the letters of SAMOTA set vertically above a black-and-white photograph of dark water."
+        }
+      },
+      {
+        "src": "17/carousel-samota-05.webp",
+        "thumb": "17/carousel-samota-05-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Přehled několika dvoustran zinu na tmavém ozdobném pozadí, vpravo dole QR kód.",
+          "en": "Overview of several zine spreads on a dark ornamental background, with a QR code at the lower right."
+        }
+      }
+    ],
+    "cover": {
+      "src": "17/carousel-samota-01.webp",
+      "thumb": "17/carousel-samota-01-thumb.webp",
+      "w": 1600,
+      "h": 2000
+    },
+    "hasVideo": false,
+    "videoEmbed": []
+  }
+}

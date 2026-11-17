@@ -1,0 +1,17 @@
+[
+  {
+    "id": "1",
+    "cs": "Toto je zástupný text, kde se později mohou objevit novinky a oznámení",
+    "en": "This is a placeholder where news and announcements can appear later"
+  },
+  {
+    "id": "2",
+    "cs": "Tento web je rozpracovaný",
+    "en": "This website is work in progress"
+  },
+  {
+    "id": "3",
+    "cs": "Další funkce budou doplněny později",
+    "en": "More features will be implemented later"
+  }
+]

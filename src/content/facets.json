@@ -1,0 +1,74 @@
+{
+  "medium": [
+    {
+      "id": "interactive",
+      "cs": "Interaktivní",
+      "en": "Interactive"
+    },
+    {
+      "id": "motion",
+      "cs": "Pohyblivý obraz",
+      "en": "Moving image"
+    },
+    {
+      "id": "video-essay",
+      "cs": "Videoesej",
+      "en": "Video essay"
+    },
+    {
+      "id": "glitch",
+      "cs": "Glitch",
+      "en": "Glitch"
+    },
+    {
+      "id": "sound",
+      "cs": "Zvuk",
+      "en": "Sound"
+    },
+    {
+      "id": "publication",
+      "cs": "Publikace",
+      "en": "Publication"
+    },
+    {
+      "id": "zine",
+      "cs": "Zin",
+      "en": "Zine"
+    },
+    {
+      "id": "poster",
+      "cs": "Plakát",
+      "en": "Poster"
+    },
+    {
+      "id": "graphics",
+      "cs": "Grafika a tisk",
+      "en": "Graphics and print"
+    },
+    {
+      "id": "photography",
+      "cs": "Fotografie",
+      "en": "Photography"
+    },
+    {
+      "id": "object",
+      "cs": "Objekt",
+      "en": "Object"
+    },
+    {
+      "id": "textile",
+      "cs": "Textil",
+      "en": "Textile"
+    },
+    {
+      "id": "installation",
+      "cs": "Instalace",
+      "en": "Installation"
+    },
+    {
+      "id": "web",
+      "cs": "Web",
+      "en": "Web"
+    }
+  ]
+}

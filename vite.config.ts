@@ -11,6 +11,7 @@ export default defineConfig({
       'public/**',
       'package-lock.json',
       'README.md',
+      'src/content/**/*.json',
     ],
     singleQuote: true,
   },

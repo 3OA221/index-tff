@@ -1,0 +1,241 @@
+{
+  "id": "09",
+  "title": {
+    "cs": "Bez názvu",
+    "en": "Bez názvu"
+  },
+  "authors": [
+    "Marek Vrabec",
+    "Petr Novotný"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 1,
+  "mediums": [
+    "motion",
+    "graphics",
+    "textile",
+    "installation"
+  ],
+  "format": {
+    "cs": "Audiovizuální tvorba, tvorba grafik, instalace",
+    "en": "Audiovisual work, graphics, installation"
+  },
+  "duration": null,
+  "description": {
+    "lang": "cs",
+    "original": "Projekt zkoumá kontrast mezi mechanickou, vyčerpávající prací a tvorbou jako přirozenou cestou ke klidu a osobnímu naplnění. Prostřednictvím audiovizuálního záznamu a tří sérií autorských grafik, vytvořených technikami pseudosítotisku, kyanotypie a malby sprejem na textil, zachycuje proces psychohygieny a postupný přechod od městského stresu přes fázi uvolnění až k absolutnímu klidu v přírodě. Hlavním cílem projektu je změna vnímání práce a tvorby, odbourání stresu a hledání vlastního pohodlí v tvůrčím procesu.",
+    "en": "The project explores the contrast between mechanical, exhausting work and creation as a natural path to calm and personal fulfilment. Through an audiovisual recording and three series of original graphics, made with pseudo-screen-printing, cyanotype and spray painting on textile, it captures a process of mental self-care and a gradual transition from urban stress through a phase of relaxation to absolute calm in nature. The main aim of the project is to change how work and creation are perceived, to relieve stress and to seek one's own comfort in the creative process."
+  },
+  "socials": [
+    {
+      "label": "@marekvrabec._",
+      "url": "https://www.instagram.com/marekvrabec._/"
+    },
+    {
+      "label": "@burberrypitr",
+      "url": "https://www.instagram.com/burberrypitr/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [
+      {
+        "src": "09/marek-vrabec-bestwork-c02.webp",
+        "thumb": "09/marek-vrabec-bestwork-c02-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Přepálený, téměř bílý rozmazaný snímek vysokého okna nebo oblouku.",
+          "en": "Overexposed, nearly white blurred image of a tall window or archway."
+        }
+      },
+      {
+        "src": "09/marek-vrabec-bestwork-c03.webp",
+        "thumb": "09/marek-vrabec-bestwork-c03-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Nakloněná fotografie cihlové hodinové věže s kruhovým ciferníkem, rozmazaná pohybem.",
+          "en": "Tilted photograph of a brick clock tower with a round clock face, blurred by motion."
+        }
+      },
+      {
+        "src": "09/marek-vrabec-bestwork-c04.webp",
+        "thumb": "09/marek-vrabec-bestwork-c04-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Tmavý vrstvený snímek obloukového cihlového vchodu s kamennými schody a slabě viditelným ciferníkem u okraje.",
+          "en": "Dark layered image of an arched brick doorway with stone steps and a faint clock face at the edge."
+        }
+      },
+      {
+        "src": "09/marek-vrabec-bestwork-c05.webp",
+        "thumb": "09/marek-vrabec-bestwork-c05-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Zvětralá dřevěná bouda mezi stromy za tmavým kmenem v popředí.",
+          "en": "A weathered wooden hut among trees, seen past a dark tree trunk in the foreground."
+        }
+      },
+      {
+        "src": "09/marek-vrabec-bestwork-c06.webp",
+        "thumb": "09/marek-vrabec-bestwork-c06-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Osoba v tmavém oblečení stojí u dřevěné boudy v rozmazaném, vybledlém lese.",
+          "en": "A person in dark clothing standing by a wooden hut in a blurred, washed-out forest."
+        }
+      },
+      {
+        "src": "09/marek-vrabec-bestwork-c07.webp",
+        "thumb": "09/marek-vrabec-bestwork-c07-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Abstraktní vrstvený snímek skály a zeleně v teplých a zelených tónech.",
+          "en": "Abstract layered image of a rock face and greenery in warm and green tones."
+        }
+      },
+      {
+        "src": "09/marek-vrabec-bestwork-c08.webp",
+        "thumb": "09/marek-vrabec-bestwork-c08-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Zrcadlený kaleidoskopický snímek jezu nebo malého vodopádu se stromy vpravo.",
+          "en": "Mirrored, kaleidoscopic image of a weir or small waterfall with trees at the right."
+        }
+      },
+      {
+        "src": "09/marek-vrabec-bestwork-c09.webp",
+        "thumb": "09/marek-vrabec-bestwork-c09-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Dvě osoby drží na zelené louce modrobílou potištěnou látku.",
+          "en": "Two people holding up a blue-and-white printed textile in a green meadow."
+        }
+      },
+      {
+        "src": "09/marek-vrabec-bestwork-c10.webp",
+        "thumb": "09/marek-vrabec-bestwork-c10-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Pohled vzhůru na vysoké stromy se sluncem prosvítajícím mezi větvemi.",
+          "en": "Upward view of tall trees with the sun shining through the branches."
+        }
+      },
+      {
+        "src": "09/marek-vrabec-bestwork-c11.webp",
+        "thumb": "09/marek-vrabec-bestwork-c11-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Téměř zcela černý snímek s úzkým pruhem kmenů stromů u levého okraje.",
+          "en": "Almost entirely black image with a sliver of tree trunks at the left edge."
+        }
+      },
+      {
+        "src": "09/novotny-archive-carousel-1.webp",
+        "thumb": "09/novotny-archive-carousel-1-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Zrcadlený strom na bílém a zeleném podkladu pod zářícím žlutým rukopisným písmem.",
+          "en": "Mirrored tree on a white and green ground beneath glowing yellow script lettering."
+        }
+      },
+      {
+        "src": "09/novotny-archive-carousel-2.webp",
+        "thumb": "09/novotny-archive-carousel-2-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Osoba zezadu v džínách a tmavém svetru stojí v potoce mezi mechem porostlými kameny, se zářivými barevnými efekty.",
+          "en": "A person seen from behind in jeans and a dark top, standing in a stream among mossy stones, with bright colour effects."
+        }
+      },
+      {
+        "src": "09/novotny-archive-carousel-3.webp",
+        "thumb": "09/novotny-archive-carousel-3-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Velký zelený strom na zářivě bílé louce, vpravo malá postava a u levého okraje vodopád.",
+          "en": "A large green tree on a bright white meadow, a small figure at the right and a waterfall at the left edge."
+        }
+      },
+      {
+        "src": "09/novotny-archive-carousel-4.webp",
+        "thumb": "09/novotny-archive-carousel-4-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Dva snímky nad sebou: nahoře modře laděná obloha se sloupy, dole nohy v džínách se zkreslenými zářivými barvami.",
+          "en": "Two stacked images: a blue-toned sky with pylons above, and legs in jeans with distorted bright colours below."
+        }
+      },
+      {
+        "src": "09/novotny-archive-carousel-5.webp",
+        "thumb": "09/novotny-archive-carousel-5-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Symetrický zrcadlený snímek osoby s kapucí v chodbě se zářícím zeleným a bílým světlem.",
+          "en": "Symmetrical mirrored image of a hooded person in a corridor, with glowing green and white light."
+        }
+      },
+      {
+        "src": "09/novotny-archive-carousel-6.webp",
+        "thumb": "09/novotny-archive-carousel-6-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Modře laděná koláž se dvěma vlčími hlavami a postavou v tmavé bundě s kruhovými obrysy.",
+          "en": "Blue-toned composite of two wolf heads and a figure in a dark jacket, with circular outlines."
+        }
+      },
+      {
+        "src": "09/novotny-archive-carousel-12.webp",
+        "thumb": "09/novotny-archive-carousel-12-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Zrcadlené stromy na bílém a zeleném podkladu pod slabým, žlutě zářícím rukopisným textem.",
+          "en": "Mirrored trees on a white and green ground beneath faint handwritten text glowing yellow."
+        }
+      }
+    ],
+    "cover": {
+      "src": "09/novotny-archive-carousel-2.webp",
+      "thumb": "09/novotny-archive-carousel-2-thumb.webp",
+      "w": 1600,
+      "h": 2000
+    },
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

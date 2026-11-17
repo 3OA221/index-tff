@@ -5,10 +5,12 @@
   "type": "module",
   "scripts": {
     "dev": "astro dev",
-    "build": "astro build",
+    "build": "node scripts/validate-data.ts && astro build && node scripts/check-links.ts",
     "preview": "astro preview",
     "check": "astro check",
-    "lint": "vp check"
+    "lint": "vp check",
+    "validate": "node scripts/validate-data.ts",
+    "check:links": "node scripts/check-links.ts"
   },
   "dependencies": {
     "@astrojs/check": "0.9.12",

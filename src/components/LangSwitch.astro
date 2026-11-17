@@ -1,0 +1,58 @@
+---
+import { LANGS, ui, type Lang } from '../i18n/ui';
+import { localePath } from '../lib/paths';
+
+interface Props {
+  lang: Lang;
+  /** Language-neutral path of the current page. */
+  path: string;
+}
+const { lang, path } = Astro.props;
+---
+
+<nav class="lang-switch" aria-label={ui[lang].language}>
+  {
+    LANGS.map((l) => (
+      <a
+        class="lang-switch__btn"
+        href={localePath(l, path)}
+        hreflang={l}
+        lang={l}
+        aria-label={ui[l].langName}
+        aria-current={l === lang ? 'page' : undefined}
+        data-lang-link={l}
+      >
+        {ui[l].langShort}
+      </a>
+    ))
+  }
+</nav>
+
+<script>
+  import '../scripts/lang-switch';
+</script>
+
+<style>
+  .lang-switch {
+    display: flex;
+  }
+  .lang-switch__btn {
+    display: grid;
+    place-items: center;
+    width: 2.5rem;
+    height: 2.5rem;
+    border: 1px solid var(--ink);
+    font-size: 0.8125rem;
+    font-weight: 700;
+    text-decoration: none;
+    color: var(--ink);
+    background: transparent;
+  }
+  .lang-switch__btn + .lang-switch__btn {
+    border-left: 0;
+  }
+  .lang-switch__btn[aria-current='page'] {
+    background: var(--ink);
+    color: var(--surface);
+  }
+</style>

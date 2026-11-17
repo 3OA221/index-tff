@@ -1,0 +1,90 @@
+{
+  "id": "03",
+  "title": {
+    "cs": "tati a mami",
+    "en": "tati a mami"
+  },
+  "authors": [
+    "Eliška Bílá"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2025,
+  "study": 3,
+  "mediums": [
+    "object"
+  ],
+  "format": {
+    "cs": "Prsteny",
+    "en": "Rings"
+  },
+  "duration": null,
+  "description": {
+    "lang": "cs",
+    "original": "„chodili jsme spolu do lesa. sbírat houby. já tam pobíhala jak malé srnče. už tehdy jste každý byl na jiné straně a já nevěděla, ke kterému běžet dřív. uprostřed jsem být nemohla, abych vás neztratila. tak jsem si našla systém. když jeden na mě začal být naštvaný, běžela jsem přes les k tomu druhému a takhle jsem to opakovala, dokud jsme nešli domů. a takhle to opakuji do teď. problém je ten, že teď už se společně domů nevrátíme...“\n\nProces smiřování a pracování s traumatem spojeným s rozvodem mých rodičů. Ztvárněný pomocí devíti prstenů, které nosím na rukou, čtyři z nich už jsou rozbité a jeden ztracený. Součástí je i krátký úryvek z textu pro mě.",
+    "en": "\"we used to go to the forest together. to pick mushrooms. i ran around there like a little fawn. even then you were each on a different side and i didn't know which of you to run to first. i couldn't be in the middle, or i would lose you. so i found a system. when one of you started to get angry with me, i ran through the forest to the other one, and i repeated this until we went home. and i still repeat it to this day. the problem is that now we won't be going home together anymore…\"\n\nA process of coming to terms with, and working through, the trauma of my parents' divorce. Rendered through nine rings that I wear on my hands; four of them are already broken and one is lost. It also includes a short excerpt from a text written for myself."
+  },
+  "socials": [
+    {
+      "label": "@925.system",
+      "url": "https://www.instagram.com/925.system/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [
+      {
+        "src": "03/bila-post.webp",
+        "thumb": "03/bila-post-thumb.webp",
+        "w": 1080,
+        "h": 566,
+        "tw": 800,
+        "alt": {
+          "cs": "Detail rukou zakrývajících obličej, na prstech několik hmotných stříbrných a bílých prstenů.",
+          "en": "Close-up of hands covering a face, with several chunky silver and white rings on the fingers."
+        }
+      },
+      {
+        "src": "03/bila-post-2.webp",
+        "thumb": "03/bila-post-2-thumb.webp",
+        "w": 1080,
+        "h": 566,
+        "tw": 800,
+        "alt": {
+          "cs": "Osoba v černém oblečení sedí před bílým pozadím, ruce opřené o kolena, na prstech několik prstenů.",
+          "en": "A person in black clothing seated against a white background, hands resting on the knees, wearing several rings."
+        }
+      },
+      {
+        "src": "03/bila-post-3.webp",
+        "thumb": "03/bila-post-3-thumb.webp",
+        "w": 1080,
+        "h": 566,
+        "tw": 800,
+        "alt": {
+          "cs": "Detail prstů s nepravidelnými prsteny, jedním průhledným jako sklo a jedním bílým, na tmavém pozadí.",
+          "en": "Close-up of fingers wearing irregular rings, one clear and glass-like, one white, against a dark background."
+        }
+      },
+      {
+        "src": "03/bila-post-4.webp",
+        "thumb": "03/bila-post-4-thumb.webp",
+        "w": 1080,
+        "h": 566,
+        "tw": 800,
+        "alt": {
+          "cs": "Několik rozbitých i celých prstenů ležících na bílém chlupatém povrchu.",
+          "en": "Several broken and whole rings lying on a white fluffy surface."
+        }
+      }
+    ],
+    "cover": {
+      "src": "03/bila-post-2.webp",
+      "thumb": "03/bila-post-2-thumb.webp",
+      "w": 1080,
+      "h": 566
+    },
+    "hasVideo": false,
+    "videoEmbed": []
+  }
+}

@@ -8,5 +8,10 @@ export default defineConfig({
   base: '/index-tff',
   trailingSlash: 'always',
   integrations: [UnoCSS()],
-  // i18n routing is added in Stage 2 (Czech default at the root, English under /en/).
+  // Czech is the default language at the root, English under /en/.
+  i18n: {
+    locales: ['cs', 'en'],
+    defaultLocale: 'cs',
+    routing: { prefixDefaultLocale: false },
+  },
 });

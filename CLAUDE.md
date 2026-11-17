@@ -11,6 +11,11 @@ Rules and context for every session working on this repository. Sections 2, 3, 4
 - UnoCSS's Astro integration injects `uno.css` itself; do not import `virtual:uno.css` in layouts.
 - `vp check` settings (format and lint ignores) are in `vite.config.ts`; Astro does not read that file. `README.md` is excluded from formatting because the user maintains it.
 - `@types/node` is a dev dependency so `astro check` accepts the Node imports in `src/lib/build.ts`.
+- Data: `src/content/projects/NN.json`, `src/content/facets.json`, `src/content/strip.json`, written by `node scripts/import-spec-data.ts <spec.md>` (never by hand; excluded from formatting). Schemas in `src/content.config.ts`. Access through `src/lib/projects.ts` (`getProjects()` returns site order).
+- `npm run build` = `scripts/validate-data.ts` (ids, count 19, mediums, image files) + `astro build` + `scripts/check-links.ts` (internal links, fragments, 38 project pages). Any failure fails the build and CI.
+- Routing: Czech pages in `src/pages/`, English in `src/pages/en/`; both render shared components in `src/components/pages/`. Links use `localePath(lang, path)` / `withBase()` from `src/lib/paths.ts`; never write `/index-tff` or `/en` by hand.
+- UI strings in `src/i18n/ui.ts`. The language switch stores `tff-lang`; only the Czech root page redirects to `/en/` when it is `en`.
+- Node runs the `.ts` scripts directly (type stripping): use only erasable TypeScript syntax there.
 
 ## 2. Rules from the user
 

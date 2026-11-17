@@ -1,0 +1,69 @@
+{
+  "id": "19",
+  "title": {
+    "cs": "ORIGINAL SONIC SOUND MODULE",
+    "en": "ORIGINAL SONIC SOUND MODULE"
+  },
+  "authors": [
+    "Zuzana Lovászová"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2025,
+  "study": 4,
+  "mediums": [
+    "object",
+    "sound"
+  ],
+  "format": {
+    "cs": "Objekt",
+    "en": "Object"
+  },
+  "duration": null,
+  "description": {
+    "lang": "sk",
+    "original": "Zostavenie zvukového modulu spočíva z myšlienky vytvoriť hracie zariadenie, ktoré by reflektovalo moju identitu nie len v zvukovej, ale aj vo vizuálnej sfére. Pracujem s konceptom sonickej identity (jedinečného, charakteristického zvuku). Objekt je založený na malom elektronickom zapojení, ktoré som zostavila z jednotlivých súčiastok. Funguje na princípe stlačenia dotykového senzoru, ktorý spúšťa a vypína zvuk. Vonkajšia schránka kontroléra je vytvorená z taveného plexiskla. Modul slúži primárne ako výstavný objekt, no zároveň sa dá využiť aj pri jednoduchej hudobnej performance.",
+    "en": "The assembly of the sound module stems from the idea of creating a playable device that would reflect my identity not only in the sonic but also in the visual sphere. I work with the concept of sonic identity (a unique, characteristic sound). The object is based on a small electronic circuit that I assembled from individual components. It works on the principle of pressing a touch sensor, which starts and stops the sound. The outer housing of the controller is made of melted plexiglass. The module serves primarily as an exhibition object, but it can also be used in simple music performance."
+  },
+  "socials": [
+    {
+      "label": "@zuzizuzi_zuzi",
+      "url": "https://www.instagram.com/zuzizuzi_zuzi/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [
+      {
+        "src": "19/1.webp",
+        "thumb": "19/1-thumb.webp",
+        "w": 1799,
+        "h": 943,
+        "tw": 800,
+        "alt": {
+          "cs": "Zvukový modul: změť drátů a součástek se zástrčkou na tmavém pozadí s malým štítkem ORIGINAL SONIC SOUND MODULE.",
+          "en": "The sound module: a tangle of wires and components with a plug, on a dark background, with a small label reading ORIGINAL SONIC SOUND MODULE."
+        }
+      },
+      {
+        "src": "19/2.webp",
+        "thumb": "19/2-thumb.webp",
+        "w": 1799,
+        "h": 943,
+        "tw": 800,
+        "alt": {
+          "cs": "Průhledná schránka modulu z taveného plexiskla s dráty a růžovou zástrčkou na tmavé látce.",
+          "en": "The module's clear, melted plexiglass housing with wires and a pink plug on dark fabric."
+        }
+      }
+    ],
+    "cover": {
+      "src": "19/2.webp",
+      "thumb": "19/2-thumb.webp",
+      "w": 1799,
+      "h": 943
+    },
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

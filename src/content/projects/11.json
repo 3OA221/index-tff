@@ -1,0 +1,58 @@
+{
+  "id": "11",
+  "title": {
+    "cs": "Eliot&Kim",
+    "en": "Eliot&Kim"
+  },
+  "authors": [
+    "Markéta Štimplová"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 3,
+  "mediums": [
+    "video-essay",
+    "glitch"
+  ],
+  "format": {
+    "cs": "Videoesej",
+    "en": "Video essay"
+  },
+  "duration": "2:50 min",
+  "description": {
+    "lang": "cs",
+    "original": "Eliot&Kim je videoesej inspirovaná řeckým mýtem o Apollonovi, Daphne a neopětované lásce, přenesená do digitálního prostoru. Kim Kardashian zde vystupuje jako vypravěčka i avatar – ikona online světa permanentně vystavená pozornosti, objektivizaci a obtěžování. Postava Eliota symbolizuje obsesivního sledovatele a temné struktury moci digitální kultury. Projekt zkoumá online identitu a trauma v prostoru bez fyzického dotyku. Glitch, deformace a AI generované chyby fungují jako vědomé narušení mýtu i převzetí kontroly nad vlastním obrazem.",
+    "en": "Eliot&Kim is a video essay inspired by the Greek myth of Apollo, Daphne and unrequited love, transposed into digital space. Kim Kardashian appears here as both narrator and avatar: an icon of the online world permanently exposed to attention, objectification and harassment. The character of Eliot symbolises the obsessive stalker and the dark power structures of digital culture. The project explores online identity and trauma in a space without physical touch. Glitch, distortion and AI-generated errors act as a conscious disruption of the myth and a taking back of control over one's own image."
+  },
+  "socials": [
+    {
+      "label": "@marketastimplova",
+      "url": "https://www.instagram.com/marketastimplova/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [
+      {
+        "src": "11/nahledovka-stimplova.webp",
+        "thumb": "11/nahledovka-stimplova-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Digitálně vytvořený portrét usmívající se ženy s dlouhými tmavými vlasy před tmavě modrým lesním pozadím.",
+          "en": "Digitally rendered portrait of a smiling woman with long dark hair against a dark blue forest background."
+        }
+      }
+    ],
+    "cover": {
+      "src": "11/nahledovka-stimplova.webp",
+      "thumb": "11/nahledovka-stimplova-thumb.webp",
+      "w": 1080,
+      "h": 1350
+    },
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

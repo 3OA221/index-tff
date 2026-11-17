@@ -13,18 +13,27 @@ import '@fontsource/ibm-plex-mono/latin-700.css';
 import '@fontsource/ibm-plex-mono/latin-ext-700.css';
 import '../styles/global.css';
 
+import LangSwitch from '../components/LangSwitch.astro';
 import { SITE_DESCRIPTION, SITE_TITLE } from '../config/site';
-import { ui, type Lang } from '../i18n/ui';
-import { withBase } from '../lib/paths';
+import { LANG_STORAGE_KEY, LANGS, ui, type Lang } from '../i18n/ui';
+import { absoluteUrl, localePath, withBase } from '../lib/paths';
 
 interface Props {
   lang: Lang;
   /** Tab title. Defaults to the site title. */
   title?: string;
+  /**
+   * Language-neutral path of this page ('/', '/work/01/'). Enables hreflang
+   * alternates, the canonical link and the language switch. Omit on the 404 page.
+   */
+  path?: string;
+  /** Czech root page only: go to /en/ if the visitor chose English before. */
+  redirectSavedLang?: boolean;
 }
 
-const { lang, title = SITE_TITLE } = Astro.props;
+const { lang, title = SITE_TITLE, path, redirectSavedLang = false } = Astro.props;
 const t = ui[lang];
+const enHome = localePath('en', '/');
 ---
 
 <!doctype html>
@@ -32,8 +41,30 @@ const t = ui[lang];
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
+    {
+      redirectSavedLang && (
+        <script is:inline define:vars={{ key: LANG_STORAGE_KEY, target: enHome }}>
+          try {
+            if (localStorage.getItem(key) === 'en') {
+              location.replace(target + location.search + location.hash);
+            }
+          } catch (e) {}
+        </script>
+      )
+    }
     <title>{title}</title>
     <meta name="description" content={SITE_DESCRIPTION} />
+    {
+      path && (
+        <>
+          <link rel="canonical" href={absoluteUrl(localePath(lang, path))} />
+          {LANGS.map((l) => (
+            <link rel="alternate" hreflang={l} href={absoluteUrl(localePath(l, path))} />
+          ))}
+          <link rel="alternate" hreflang="x-default" href={absoluteUrl(localePath('cs', path))} />
+        </>
+      )
+    }
     <link rel="icon" href={withBase('favicon.ico')} sizes="32x32" />
     <link rel="icon" href={withBase('favicon.svg')} type="image/svg+xml" />
     <link rel="icon" href={withBase('favicon-64.png')} type="image/png" sizes="64x64" />
@@ -44,6 +75,7 @@ const t = ui[lang];
     <a class="skip-link" href="#main">{t.skip}</a>
     <div class="frame">
       <aside class="frame__side">
+        {path && <LangSwitch lang={lang} path={path} />}
         <slot name="side" />
       </aside>
       <main id="main" class="frame__main" tabindex="-1">

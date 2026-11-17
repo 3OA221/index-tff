@@ -1,0 +1,75 @@
+{
+  "id": "13",
+  "title": {
+    "cs": "Milá babičko…",
+    "en": "Milá babičko…"
+  },
+  "authors": [
+    "Magda Kudělová",
+    "Natálie Staníková"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 1,
+  "mediums": [
+    "textile",
+    "photography",
+    "installation"
+  ],
+  "format": {
+    "cs": "Šití, háčkování, fotografie, instalace",
+    "en": "Sewing, crochet, photography, installation"
+  },
+  "duration": null,
+  "description": {
+    "lang": "cs",
+    "original": "Tato kolekce vznikla ve spolupráci jako pocta našim babičkám, které nás vychovaly a formovaly v to, kým jsme dnes. Jedna nás naučila háčkovat, druhá šít. Propojením těchto tradičních technik jsme vytvořily něco hluboce osobního. Během celého procesu jsme měly pocit, jako by naše ruce pracovaly ve stejném rytmu. Rozhovory s našimi babičkami nám odhalily nové vrstvy vzájemného propojení a porozumění, které nás hluboce dojaly. Brzy jsme si uvědomily, že tato práce není pouze spoluprací mezi námi dvěma, ale také pomyslným pokračováním odkazu našich babiček, který v sobě neseme dál.",
+    "en": "This collection was created in collaboration as a tribute to our grandmothers, who raised us and shaped us into who we are today. One taught us to crochet, the other to sew. By combining these traditional techniques we created something deeply personal. Throughout the process it felt as if our hands were working in the same rhythm. Conversations with our grandmothers revealed new layers of connection and understanding that moved us deeply. We soon realised that this work is not only a collaboration between the two of us but also a symbolic continuation of our grandmothers' legacy, which we carry on."
+  },
+  "socials": [
+    {
+      "label": "@mkudelovaa",
+      "url": "https://www.instagram.com/mkudelovaa/"
+    },
+    {
+      "label": "@llcreative.headll",
+      "url": "https://www.instagram.com/llcreative.headll/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [
+      {
+        "src": "13/carousel-1.webp",
+        "thumb": "13/carousel-1-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Galerijní stěna s malými zarámovanými portréty a dřevěná skříň s otevřenými dveřmi, uvnitř visí bílé háčkované kusy.",
+          "en": "Gallery wall with small framed portraits and a wooden wardrobe with open doors, white crocheted pieces hanging inside."
+        }
+      },
+      {
+        "src": "13/carousel-2.webp",
+        "thumb": "13/carousel-2-thumb.webp",
+        "w": 1600,
+        "h": 2000,
+        "tw": 640,
+        "alt": {
+          "cs": "Zarámované fotografie žen v bílém oblečení na louce, vedle zarámované stránky textu.",
+          "en": "Framed photographs of women in white clothing in a meadow, hung beside a framed page of text."
+        }
+      }
+    ],
+    "cover": {
+      "src": "13/carousel-1.webp",
+      "thumb": "13/carousel-1-thumb.webp",
+      "w": 1600,
+      "h": 2000
+    },
+    "hasVideo": false,
+    "videoEmbed": []
+  }
+}

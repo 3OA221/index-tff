@@ -1,0 +1,98 @@
+{
+  "id": "16",
+  "title": {
+    "cs": "Štruktúra miesta",
+    "en": "Štruktúra miesta"
+  },
+  "authors": [
+    "Petra Šimonová"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 2,
+  "mediums": [
+    "photography"
+  ],
+  "format": {
+    "cs": "Cyklus fotografií",
+    "en": "Photo series"
+  },
+  "duration": null,
+  "description": {
+    "lang": "sk",
+    "original": "Práca skúma a pozoruje nebezpečie s nadhľadom, vystavenie sa nestabilným a pominuteľným miestam. Fotografie zaznamenávajú rozpad momentu, zmenu teploty a vnútorného stavu.",
+    "en": "The work examines and observes danger from a distance, the exposure to unstable and fleeting places. The photographs record the disintegration of a moment, a change of temperature and of inner state."
+  },
+  "socials": [
+    {
+      "label": "@petttula_",
+      "url": "https://www.instagram.com/petttula_/"
+    }
+  ],
+  "links": [
+    {
+      "label": {
+        "cs": "Web autorky",
+        "en": "Author's website"
+      },
+      "url": "https://petrasimonova.hotglue.me/"
+    }
+  ],
+  "media": {
+    "images": [
+      {
+        "src": "16/struktura-miesta-simonova-01.webp",
+        "thumb": "16/struktura-miesta-simonova-01-thumb.webp",
+        "w": 2000,
+        "h": 1500,
+        "tw": 800,
+        "alt": {
+          "cs": "Sněhový povrch vymodelovaný větrem s tmavými stíny v hřebenech.",
+          "en": "Wind-sculpted snow surface with dark shadows in its ridges."
+        }
+      },
+      {
+        "src": "16/struktura-miesta-simonova-02.webp",
+        "thumb": "16/struktura-miesta-simonova-02-thumb.webp",
+        "w": 2000,
+        "h": 1500,
+        "tw": 800,
+        "alt": {
+          "cs": "Zasněžený svah pokrytý stopami.",
+          "en": "Snow slope covered in footprints."
+        }
+      },
+      {
+        "src": "16/struktura-miesta-simonova-03.webp",
+        "thumb": "16/struktura-miesta-simonova-03-thumb.webp",
+        "w": 2000,
+        "h": 1500,
+        "tw": 800,
+        "alt": {
+          "cs": "Neustlaná postel u zdi osvětlené pruhem teplého světla.",
+          "en": "An unmade bed beside a wall lit by a band of warm light."
+        }
+      },
+      {
+        "src": "16/struktura-miesta-simonova-04.webp",
+        "thumb": "16/struktura-miesta-simonova-04-thumb.webp",
+        "w": 2000,
+        "h": 1500,
+        "tw": 800,
+        "alt": {
+          "cs": "Detail zdi s pruhem teplého slunečního světla nad stínem.",
+          "en": "Close-up of a wall with a band of warm sunlight above a shadowed area."
+        }
+      }
+    ],
+    "cover": {
+      "src": "16/struktura-miesta-simonova-01.webp",
+      "thumb": "16/struktura-miesta-simonova-01-thumb.webp",
+      "w": 2000,
+      "h": 1500
+    },
+    "hasVideo": false,
+    "videoEmbed": []
+  }
+}

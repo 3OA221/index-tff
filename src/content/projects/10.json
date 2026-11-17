@@ -1,0 +1,48 @@
+{
+  "id": "10",
+  "title": {
+    "cs": "trauma",
+    "en": "trauma"
+  },
+  "authors": [
+    "Markéta Vaverková"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2025,
+  "study": 3,
+  "mediums": [
+    "motion",
+    "object",
+    "installation"
+  ],
+  "format": {
+    "cs": "Video, objekt",
+    "en": "Video, object"
+  },
+  "duration": null,
+  "description": {
+    "lang": "cs",
+    "original": "Práce se zabývá zpracováním osobního traumatu prostřednictvím oděvní instalace, která propojuje vizuální vyjádření s tématy deprese, bipolarity, vyrovnávání se s násilím a hledání vlastní identity.\n\nTransparentnost a křehkost materiálů slouží jako metafora otevřenosti a zranitelnosti, které jsou klíčové pro proces uzdravení. Instalace reflektuje nejen osobní zkušenost, ale také obecnější společenské fenomény spojené s tabuizovanými tématy psychických onemocnění a sexuálního násilí. Výsledkem je projekt, který skrze propojení intimní výpovědi a současného uměleckého jazyka otevírá prostor pro diskuzi o bolesti, identitě a síle přežití.",
+    "en": "The work deals with processing personal trauma through a clothing installation that connects visual expression with the themes of depression, bipolarity, coping with violence and the search for one's own identity. The transparency and fragility of the materials serve as a metaphor for the openness and vulnerability that are key to the healing process. The installation reflects not only personal experience but also broader social phenomena connected with taboo topics of mental illness and sexual violence. The result is a project that, by connecting intimate testimony with contemporary artistic language, opens space for discussion about pain, identity and the strength of survival."
+  },
+  "socials": [
+    {
+      "label": "@ciaopenup",
+      "url": "https://www.instagram.com/ciaopenup/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [],
+    "cover": {
+      "src": "10/cover.webp",
+      "thumb": "10/cover-thumb.webp",
+      "w": 1280,
+      "h": 720
+    },
+    "preview": "10/preview.webp",
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

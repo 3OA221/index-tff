@@ -1,0 +1,11 @@
+---
+// Served by GitHub Pages for any missing path, in both languages.
+import Base from '../layouts/Base.astro';
+import { localePath } from '../lib/paths';
+---
+
+<Base lang="cs" title="404 - TEXT FORMA FUNKCE">
+  <h1>404</h1>
+  <p>Stránka nebyla nalezena. <a href={localePath('cs', '/')}>Úvodní stránka</a></p>
+  <p lang="en">Page not found. <a href={localePath('en', '/')}>Home page</a></p>
+</Base>

@@ -1,0 +1,47 @@
+{
+  "id": "06",
+  "title": {
+    "cs": "O čem se ti zdálo?",
+    "en": "O čem se ti zdálo?"
+  },
+  "authors": [
+    "Karolína Melenovská"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 4,
+  "mediums": [
+    "motion",
+    "sound"
+  ],
+  "format": {
+    "cs": "Video, hudební kompozice",
+    "en": "Video, music composition"
+  },
+  "duration": "13:09 min",
+  "description": {
+    "lang": "cs",
+    "original": "Naslouchám scénářům, které mi byly popisovány, a snažím se je převést do vizuální podoby. Objevují se v nich pocity strachu, napětí a nejistoty. Téměř v každé výpovědi se objevuje motiv pronásledování, útěk před něčím neznámým, potřeba zachránit se nebo pocit přítomnosti někoho, kdo zůstává ve snu skrytý. Ve snech dotazovaných se prolínaly časy i prostory a jednotlivé scenérie na sebe podle popisu navazují bez jasné logiky, proměňují se a gradují. Opakující se motivy se vracejí v různých obměnách. Specifická místa, situace i bytosti se s drobnými proměnami znovu vynořují napříč jednotlivými sny. Po probuzení se často dostavuje nejistota ohledně toho, co se odehrálo ve snu a co je skutečnost.\n\nInspirací pro vizuální podobu videa mi byly sny osob s Parkinsonovou chorobou, vzhledem k tomu, že se u nich mohou častěji objevovat noční můry nebo intenzivní sny. Obsah těchto snů jsem získávala prostřednictvím výpovědí pacientů s tímto onemocněním nebo jejich blízkých, kterým své sny popisovali. Video neusiluje o doslovnou rekonstrukci konkrétních snů, ale o přenos atmosféry a subjektivního prožívání do vizuální podoby.",
+    "en": "I listen to scenarios that were described to me and try to translate them into visual form. They contain feelings of fear, tension and uncertainty. Almost every account features the motif of being chased, fleeing from something unknown, the need to save oneself, or the sense of the presence of someone who stays hidden in the dream. In the respondents' dreams, times and spaces intertwined, and the individual scenes follow one another as described, without clear logic, transforming and escalating. Recurring motifs return in various variations. Specific places, situations and beings re-emerge with small changes across the individual dreams. After waking, uncertainty often arises about what happened in the dream and what is reality.\n\nThe inspiration for the visual form of the video came from the dreams of people with Parkinson's disease, since nightmares or intense dreams can occur more often in them. I obtained the content of these dreams from accounts by patients with this illness, or by their relatives, to whom they described their dreams. The video does not aim at a literal reconstruction of specific dreams but at transferring atmosphere and subjective experience into visual form."
+  },
+  "socials": [
+    {
+      "label": "@ohnoniina",
+      "url": "https://www.instagram.com/ohnoniina/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [],
+    "cover": {
+      "src": "06/cover.webp",
+      "thumb": "06/cover-thumb.webp",
+      "w": 1920,
+      "h": 1080
+    },
+    "preview": "06/preview.webp",
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "id": "07",
+  "title": {
+    "cs": "Can you remember it?",
+    "en": "Can you remember it?"
+  },
+  "authors": [
+    "Kristína Čusová"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 3,
+  "mediums": [
+    "video-essay"
+  ],
+  "format": {
+    "cs": "Videoesej",
+    "en": "Video essay"
+  },
+  "duration": "3:03 min",
+  "description": {
+    "lang": "cs",
+    "original": "Práce subjektivně popisuje proměnu internetu, který vnímám jako místo. Pro mě kdysi bezpečné, příjemné, ale postupně a neustále se měnící v něco úplně jiného. A nejen ono. Způsob, jakým vnímáme, ukládáme informace a pracujeme s nimi, je na něm závislý, přetvořený. Nehledám řešení ani nějaký závěr, práce je spíše zamyšlením a nostalgickým ohlédnutím za místem, které pro mě již neexistuje.",
+    "en": "The work subjectively describes the transformation of the internet, which I perceive as a place. It was once safe and pleasant for me, but gradually and constantly turned into something entirely different. And not only that: the way we perceive, store and work with information depends on it and has been reshaped by it. I am not looking for a solution or a conclusion; the work is rather a reflection and a nostalgic look back at a place that no longer exists for me."
+  },
+  "socials": [
+    {
+      "label": "@kristina_cusova",
+      "url": "https://www.instagram.com/kristina_cusova/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [],
+    "cover": {
+      "src": "07/cover.webp",
+      "thumb": "07/cover-thumb.webp",
+      "w": 1920,
+      "h": 1080
+    },
+    "preview": "07/preview.webp",
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}

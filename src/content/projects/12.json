@@ -1,0 +1,179 @@
+{
+  "id": "12",
+  "title": {
+    "cs": "Headliners",
+    "en": "Headliners"
+  },
+  "authors": [
+    "Nat Babczynská"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 1,
+  "mediums": [
+    "publication",
+    "graphics"
+  ],
+  "format": {
+    "cs": "DVD; design / sazba / vyřazení / tisk / kompletace V1 / DVD menu",
+    "en": "DVD; design / typesetting / imposition / print / assembly V1 / DVD menu"
+  },
+  "duration": "1 h 28 min",
+  "description": {
+    "lang": "cs",
+    "original": "Projekt se zabývá vizuálním zpracováním vystoupení kapely The 1975 na festivalu Glastonbury 2025, kde se kapela představila v roli hlavního účinkujícího. Inspirací se stal limitovaný zine vydaný u příležitosti koncertu, který dokumentoval jeho přípravy. Výstupem je fyzická reprodukce vystoupení v podobě DVD setu, který zahrnuje obal, brožurku, vypálený disk s DVD menu a kopii původního setlistu. Při tvorbě byly využity fotografie z původního zinu sdílené fanoušky na internetu. Grafický design vychází z vizuálního stylu původního zinu a pracuje s fotografiemi, typografií a kompozicí inspirovanou jeho podobou.",
+    "en": "The project deals with the visual treatment of The 1975's performance at Glastonbury Festival 2025, where the band appeared as a headliner. The inspiration was a limited zine released on the occasion of the concert, which documented its preparations. The output is a physical reproduction of the performance in the form of a DVD set comprising a cover, a booklet, a burned disc with a DVD menu and a copy of the original setlist. Photographs from the original zine, shared online by fans, were used in the making. The graphic design draws on the visual style of the original zine and works with photographs, typography and composition inspired by its look."
+  },
+  "socials": [
+    {
+      "label": "@nvdelae",
+      "url": "https://www.instagram.com/nvdelae/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [
+      {
+        "src": "12/babczynska-tff-selekce.webp",
+        "thumb": "12/babczynska-tff-selekce-thumb.webp",
+        "w": 2000,
+        "h": 500,
+        "tw": 800,
+        "alt": {
+          "cs": "Široká koláž částí DVD setu, obalu, brožurky, disku a ručně psaného setlistu, na bílém podkladu s černými skvrnami.",
+          "en": "Wide collage of the DVD set's parts, cover, booklet, disc and handwritten setlist, on white with black speckled shapes."
+        }
+      },
+      {
+        "src": "12/dsc08234.webp",
+        "thumb": "12/dsc08234-thumb.webp",
+        "w": 1333,
+        "h": 2000,
+        "tw": 533,
+        "alt": {
+          "cs": "DVD obal postavený svisle na světlém pozadí; na obalu jsou nohy v džínách a nápis The 1975.",
+          "en": "The DVD case standing upright against a pale background; the cover shows legs in jeans and the title The 1975."
+        }
+      },
+      {
+        "src": "12/dsc08236.webp",
+        "thumb": "12/dsc08236-thumb.webp",
+        "w": 2000,
+        "h": 1333,
+        "tw": 800,
+        "alt": {
+          "cs": "Otevřený DVD obal s diskem stojící na ručně psaném setlistu na bílém pozadí.",
+          "en": "The open DVD case with its disc, standing on a handwritten setlist on a white background."
+        }
+      },
+      {
+        "src": "12/dsc08242.webp",
+        "thumb": "12/dsc08242-thumb.webp",
+        "w": 2000,
+        "h": 1333,
+        "tw": 800,
+        "alt": {
+          "cs": "Pohled shora na stránku brožurky, disk a setlist s černým pruhem s nápisem SET LIST.",
+          "en": "Top view of a booklet page, the disc and a setlist with a black stripe reading SET LIST."
+        }
+      },
+      {
+        "src": "12/dsc08250.webp",
+        "thumb": "12/dsc08250-thumb.webp",
+        "w": 2000,
+        "h": 1333,
+        "tw": 800,
+        "alt": {
+          "cs": "Otevřený DVD obal ležící na brožurce a setlistu, vedle něj disk.",
+          "en": "The DVD case lying open on a booklet and setlist, with the disc beside it."
+        }
+      },
+      {
+        "src": "12/dsc08251.webp",
+        "thumb": "12/dsc08251-thumb.webp",
+        "w": 2000,
+        "h": 1333,
+        "tw": 800,
+        "alt": {
+          "cs": "Brožurka s tmavou fotografií z pódia ležící na setlistu vedle otevřeného DVD obalu.",
+          "en": "The booklet with a dark stage photograph lying on the setlist beside the open DVD case."
+        }
+      },
+      {
+        "src": "12/dsc08263.webp",
+        "thumb": "12/dsc08263-thumb.webp",
+        "w": 2000,
+        "h": 1333,
+        "tw": 800,
+        "alt": {
+          "cs": "Rozevřená dvoustrana brožurky s fotografiemi z koncertu vedle DVD obalu a setlistu.",
+          "en": "Open booklet spread with concert photographs beside the DVD case and setlist."
+        }
+      },
+      {
+        "src": "12/tff-selekce-autora-post-1.webp",
+        "thumb": "12/tff-selekce-autora-post-1-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "DVD obal postavený svisle na bílém pozadí s černými skvrnitými tvary.",
+          "en": "The DVD case upright on a white background with black speckled shapes."
+        }
+      },
+      {
+        "src": "12/tff-selekce-autora-post-2.webp",
+        "thumb": "12/tff-selekce-autora-post-2-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Otevřený DVD obal a ručně psaný setlist na bílém pozadí s černými skvrnami.",
+          "en": "The open DVD case and handwritten setlist on white with black speckles."
+        }
+      },
+      {
+        "src": "12/tff-selekce-autora-post-3.webp",
+        "thumb": "12/tff-selekce-autora-post-3-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "DVD obal otevřený na setlistu, na bílém pozadí s černými skvrnami.",
+          "en": "The DVD case lying open across the setlist, on black-speckled white."
+        }
+      },
+      {
+        "src": "12/tff-selekce-autora-post-4.webp",
+        "thumb": "12/tff-selekce-autora-post-4-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Snímky obrazovky DVD menu a časové osy střihového programu na bílém pozadí s černými skvrnami.",
+          "en": "Screenshots of the DVD menu and a video-editing timeline over a black-speckled white background."
+        }
+      },
+      {
+        "src": "12/tff-selekce-autora-post-5.webp",
+        "thumb": "12/tff-selekce-autora-post-5-thumb.webp",
+        "w": 1080,
+        "h": 1350,
+        "tw": 640,
+        "alt": {
+          "cs": "Dvě kompozice DVD setu: nahoře brožurka, disk a setlist, dole obaly a brožurky.",
+          "en": "Two compositions of the DVD set: booklet, disc and setlist above, cases and booklets below."
+        }
+      }
+    ],
+    "cover": {
+      "src": "12/dsc08234.webp",
+      "thumb": "12/dsc08234-thumb.webp",
+      "w": 1333,
+      "h": 2000
+    },
+    "hasVideo": false,
+    "videoEmbed": []
+  }
+}

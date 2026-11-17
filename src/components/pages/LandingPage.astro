@@ -1,0 +1,31 @@
+---
+// Stage 2 placeholder: the about text, filters and grid come in Stage 3.
+import Base from '../../layouts/Base.astro';
+import { ui, type Lang } from '../../i18n/ui';
+import { localePath, workPath } from '../../lib/paths';
+import { getProjects } from '../../lib/projects';
+
+interface Props {
+  lang: Lang;
+}
+const { lang } = Astro.props;
+const t = ui[lang];
+const projects = await getProjects();
+---
+
+<Base lang={lang} path="/" redirectSavedLang={lang === 'cs'}>
+  <section id="about" aria-label="TEXT FORMA FUNKCE"></section>
+  <section id="works" aria-labelledby="works-heading">
+    <h2 id="works-heading">{t.projects}</h2>
+    <ul>
+      {
+        projects.map((p) => (
+          <li>
+            <a href={localePath(lang, workPath(p.id))}>{p.title.cs}</a> ({p.authors.join(', ')} ·{' '}
+            {p.year})
+          </li>
+        ))
+      }
+    </ul>
+  </section>
+</Base>

@@ -1,0 +1,48 @@
+{
+  "id": "04",
+  "title": {
+    "cs": "Why are you here???",
+    "en": "Why are you here???"
+  },
+  "authors": [
+    "Jakub Brandštetr"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2026,
+  "study": 2,
+  "mediums": [
+    "motion"
+  ],
+  "format": {
+    "cs": "Multimedia",
+    "en": "Multimedia"
+  },
+  "duration": null,
+  "description": {
+    "lang": "cs",
+    "original": "Why are you here??? Odkazuje na mentální problémy, jako jsou závislost na souhlasu, imposter syndrom a externí locus kontroly, které ovládaly můj život. Chtěl jsem lidi, kteří mou práci uvidí zastrašit, aby se sami snažili nepropadnout těmto problémům. O to se pokouším zamazáním projektů, které jsem vytvářel po dobu klauzur, stejně jako mentální problémy zamazávají realitu kolem nás a jako mlha nás pohltí. Ve videu k nám promlouvají hlasy opakující texty, které jsem si sepisoval v podobě myšlenkové mapy při otázce, jak se cítím.",
+    "en": "Why are you here??? refers to mental problems such as dependence on approval, impostor syndrome and an external locus of control, which have governed my life. I wanted to frighten the people who see my work into trying not to fall into these problems themselves. I attempt this by smearing out the projects I created during the klauzury (semester reviews), just as mental problems smear the reality around us and engulf us like fog. In the video, voices speak to us repeating texts that I wrote down as a mind map when asking myself how I feel."
+  },
+  "socials": [
+    {
+      "label": "@kuba_brandstetr",
+      "url": "https://www.instagram.com/kuba_brandstetr/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [],
+    "cover": {
+      "src": "04/cover.webp",
+      "thumb": "04/cover-thumb.webp",
+      "w": 1920,
+      "h": 1080
+    },
+    "preview": "04/preview.webp",
+    "hasVideo": true,
+    "videoEmbed": [
+      "I-fXUp6mBsI"
+    ]
+  }
+}

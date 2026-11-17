@@ -1,0 +1,46 @@
+{
+  "id": "02",
+  "title": {
+    "cs": "Proces ve formě knihy",
+    "en": "Proces ve formě knihy"
+  },
+  "authors": [
+    "Daniela Klímová"
+  ],
+  "collaborators": [],
+  "credits": [],
+  "year": 2024,
+  "study": 3,
+  "mediums": [
+    "publication"
+  ],
+  "format": {
+    "cs": "Experimentální kniha",
+    "en": "Experimental book"
+  },
+  "duration": null,
+  "description": {
+    "lang": "cs",
+    "original": "Digitální umělecká kniha představuje upřímné zkoumání umělecké svobody, v níž má každá úvaha, skica i nedokončený nápad své pevné místo. Sleduje tvůrčí proces v reálném čase rozprostřeném na časové ose, kde se mísí strach z nepochopení s touhou po autentičnosti. Prostřednictvím dialogu vizuálních děl a osobních textů zachycuje rok plný růstu, experimentů a tvorby, která se postupně zbavuje paralyzujících pochybností o sobě samém.",
+    "en": "The digital art book is an honest exploration of artistic freedom, in which every reflection, sketch and unfinished idea has its firm place. It follows the creative process in real time, spread along a timeline, where the fear of being misunderstood mixes with the desire for authenticity. Through a dialogue of visual works and personal texts, it captures a year full of growth, experiments and creation that gradually sheds paralysing self-doubt."
+  },
+  "socials": [
+    {
+      "label": "@klimova_dani",
+      "url": "https://www.instagram.com/klimova_dani/"
+    }
+  ],
+  "links": [],
+  "media": {
+    "images": [],
+    "cover": {
+      "src": "02/cover.webp",
+      "thumb": "02/cover-thumb.webp",
+      "w": 1920,
+      "h": 1080
+    },
+    "preview": "02/preview.webp",
+    "hasVideo": true,
+    "videoEmbed": []
+  }
+}
